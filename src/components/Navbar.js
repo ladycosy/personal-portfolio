@@ -9,10 +9,10 @@ function Navbar() {
         <button></button>
       </div>
       <div className="links">
-        <link to="/">Home</link>
-        <link to="/Projects">Projects</link>
-        <link to="/Experience">Experience</link>
-        <link to="/Contact">Contact</link>
+        <Link to={`/`}>Home</Link>
+        <Link to={`/Projects`}>Projects</Link>
+        <link to={`/Experience`}>Experience</link>
+        <link to={`/Contact`}>Contact</link>
       </div>
     </div>
   );
