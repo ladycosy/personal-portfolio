@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         {/* Place Navbar element outside Routes, but inside Router, so it exists on every page*/}
-        <Navbar></Navbar>
+        <Navbar />
         {/* Place page elements inside Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
         {/* Place Footer element outside Routes, but inside Router, so it exists on every page */}
-        <Footer></Footer>
+        <Footer />
       </Router>
     </div>
   );
