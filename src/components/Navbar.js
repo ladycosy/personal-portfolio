@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
+
+  const location = useLocation();
+
+  // run this useEffect when the location (that is inside array) changes - set the Navbar to 'false' which = 'close state'
+  useEffect(() => {
+    setExpandNavbar(false);
+  }, [location]);
 
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
