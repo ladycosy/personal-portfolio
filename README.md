@@ -1,6 +1,6 @@
 # anna-portfolio-page
 
-This is a portfolio page created with `React.js`.  The purpose of this project is to introduce myself and the projects I have done. 
+This is a portfolio page created with `React.js`.  The purpose of this project is to introduce myself and the projects I have done to the potential employers. 
 
 
 ## User Story
