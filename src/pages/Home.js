@@ -3,22 +3,36 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import "../styles/Home.css";
+import personalimage from "../assets/personalimage.JPG";
 
 function Home() {
   return (
     <div className="home">
-      <div className="about">
-        <h2>Hi, My Name is Anna</h2>
-        <div className="prompt">
-          <p>A junior web developer with passion for learning and creating</p>
-          <LinkedInIcon />
-          <GitHubIcon />
-          <AlternateEmailIcon />
-          <div><button class="resume-link">
-            <a href="https://lady-cosy.netlify.app" target="_blank">
-              PDF Resume
+      <div class="hero">
+        <img src={personalimage}></img>
+        <div className="about">
+          <h2>Hi, My Name is Anna</h2>
+          <div className="prompt">
+            <p>A junior web developer with passion for learning and creating</p>
+            <a
+              href="https://www.linkedin.com/in/annakozlowska1993"
+              target="_blank"
+            >
+              <LinkedInIcon />
             </a>
-          </button>
+            <a href="https://github.com/ladycosy" target="_blank">
+              <GitHubIcon />
+            </a>
+            <a href="mailto:a.kozlowska1993@gmail.com" target="_blank">
+              <AlternateEmailIcon />
+            </a>
+            <div>
+              <button class="resume-link">
+                <a href="https://lady-cosy.netlify.app" target="_blank">
+                  PDF Resume
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
