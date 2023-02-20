@@ -9,31 +9,31 @@ export const ProjectList = [
   {
     name: "BootStrap Portfolio",
     image: P1,
-    skills: "JavaScript, HTML",
+    skills: "HTML, CSS, BootStrap",
   },
   {
     name: "Password Generator",
     image: P2,
-    skills: "JavaScript, HTML",
+    skills: "HTML, JavaScript",
   },
   {
     name: "Work Day Scheduler",
     image: P3,
-    skills: "JavaScript, HTML",
+    skills: "HTML, CSS, JavaScript",
   },
   {
     name: "Weather Dashboard",
     image: P4,
-    skills: "JavaScript, HTML",
+    skills: "HTML, BootStrap, JavaScript, API",
   },
   {
     name: "Big Night In",
     image: P5,
-    skills: "JavaScript, HTML",
+    skills: "HTML, CSS, BootStrap, JavaScript, API, JQuery, Figma, Trello",
   },
   {
     name: "Figma Wireframes",
     image: Figma,
-    skills: "JavaScript, HTML",
+    skills: "Figma",
   },
 ];

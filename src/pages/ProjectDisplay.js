@@ -13,9 +13,11 @@ function ProjectDisplay() {
       <img src={project.image} />
       <p>
         <b>Skills:</b>
-        {project.skills}{" "}
+        {project.skills}
       </p>
-      <GitHubIcon />
+      <a href="https://github.com">
+        <GitHubIcon />
+      </a>
     </div>
   );
 }
