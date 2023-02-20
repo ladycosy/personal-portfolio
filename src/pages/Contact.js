@@ -1,9 +1,12 @@
-import React from 'react'
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import ContactForm from "../components/ContactForm.js";
 
 function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <div>
+      <ContactForm />
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;
