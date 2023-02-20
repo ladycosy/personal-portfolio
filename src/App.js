@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay.js";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
